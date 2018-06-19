@@ -1,9 +1,15 @@
 def simple_curfew_checker(time)
-  # code goes here
+  if time == "11"
+    puts "Get back to common room!"
+  end
 end
 
 def curfew_checker(time)
-  # code goes here
+  if time == "11"
+    puts "Get back to common room!"
+  else time != "11"
+    puts "You have some time."
+  end
 end
 
 def complex_curfew_checker(time)
